@@ -1,0 +1,84 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #9d9d9d;
+    font-family: 'ubuntu', sans-serif;
+    background-image: url(D:\xampp\htdocs\PROYEK%kASIR\img);
+}
+
+  
+.login-container {
+    width: 400px;
+    padding:50px;   
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 100px;   
+
+}
+
+.login-header {
+    background-color: #378CE7;
+    border-radius: 10px 10px 0 0px;
+    color: white;
+    text-align: none;
+    padding: 20px;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 1px; 
+    margin: -20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: 'ubuntu', sans-serif;
+    float: center;
+}
+
+button {    
+    width: 30%;
+    padding: 12px;
+    background-color: #378CE7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    font-family: 'ubuntu', sans-serif;
+    margin-right: 0px;
+    margin-top: 0%;
+    margin-left: 15px;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.text-username {
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 30px ;
+}
+
+.text-password {
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.total-harga {
+    float: right;
+    margin-right: 15%; /* Atur margin ini sesuai kebutuhan Anda */
+}
